@@ -1,0 +1,24 @@
+# Secretos y entornos
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
